@@ -17,7 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".chapter_detailsActivity" />
-        <activity android:name=".TheoryActivity"></activity>
+        <activity android:name=".TheoryActivity" />
+        <activity android:name=".SubtopicDetailActivity" />
+        <activity android:name=".SubtopicInformationActivity"></activity>
     </application>
 
 </manifest>
