@@ -15,12 +15,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Btnchapter1=findViewById(R.id.btnChap1);
+        Btnchapter1=findViewById(R.id.btnWW1);
 
         Btnchapter1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
                 Intent activityChangeIntent = new Intent(MainActivity.this, chapter_detailsActivity.class);
+                activityChangeIntent.putExtra("test", 0);
                 startActivity(activityChangeIntent);
 
             }

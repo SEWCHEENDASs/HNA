@@ -1,5 +1,6 @@
 package com.johnnysayshiandroid.historynotesapplication;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
@@ -9,5 +10,7 @@ public class chapter_detailsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chapter_details);
+        //String text = Intent.getIntentOld("test");
+
     }
 }

@@ -29,27 +29,27 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageButton
-            android:id="@+id/imageButton2"
+            android:id="@+id/btnStalin"
             android:layout_width="189dp"
             android:layout_height="149dp"
             android:layout_marginEnd="16dp"
             android:layout_marginStart="8dp"
             android:background="@drawable/stalin"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/btnChap1"
+            app:layout_constraintStart_toEndOf="@+id/btnWW1"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
 
         <ImageButton
-            android:id="@+id/imageButton3"
+            android:id="@+id/btnHitler"
             android:layout_width="189dp"
             android:layout_height="149dp"
             android:layout_marginStart="8dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btnChap1"
+            app:layout_constraintTop_toBottomOf="@+id/btnWW1"
             app:srcCompat="@drawable/hitler" />
 
         <ImageButton
-            android:id="@+id/btnChap1"
+            android:id="@+id/btnWW1"
             android:layout_width="wrap_content"
             android:layout_height="149dp"
             android:layout_marginStart="8dp"
@@ -58,52 +58,52 @@
             app:layout_constraintTop_toBottomOf="@+id/textView" />
 
         <ImageButton
-            android:id="@+id/imageButton5"
+            android:id="@+id/btnEurope"
             android:layout_width="189dp"
             android:layout_height="149dp"
             android:layout_marginEnd="8dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/imageButton3"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+            app:layout_constraintStart_toEndOf="@+id/btnHitler"
+            app:layout_constraintTop_toBottomOf="@+id/btnStalin"
             app:srcCompat="@drawable/ww2europe" />
 
         <ImageButton
-            android:id="@+id/imageButton6"
+            android:id="@+id/btndefeatGermany"
             android:layout_width="189dp"
             android:layout_height="149dp"
             android:layout_marginEnd="8dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/imageButton7"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton5"
+            app:layout_constraintTop_toBottomOf="@+id/btnEurope"
             app:srcCompat="@drawable/defeatgermany" />
 
         <ImageButton
-            android:id="@+id/imageButton7"
+            android:id="@+id/btnAsia"
             android:layout_width="189dp"
             android:layout_height="149dp"
             android:layout_marginStart="8dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+            app:layout_constraintTop_toBottomOf="@+id/btnHitler"
             app:srcCompat="@drawable/ww2aisa" />
 
         <ImageButton
-            android:id="@+id/imageButton8"
+            android:id="@+id/btndefeatJapan"
             android:layout_width="189dp"
             android:layout_height="149dp"
             android:layout_marginStart="8dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton6"
-            app:srcCompat="@drawable/ww1" />
+            app:layout_constraintTop_toBottomOf="@+id/btndefeatGermany"
+            app:srcCompat="@drawable/defeatofjapan" />
 
         <ImageButton
-            android:id="@+id/imageButton9"
+            android:id="@+id/btncoldWar"
             android:layout_width="0dp"
             android:layout_height="149dp"
             android:layout_marginEnd="8dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/imageButton8"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton6"
-            app:srcCompat="@drawable/ww2europe" />
+            app:layout_constraintStart_toEndOf="@+id/btndefeatJapan"
+            app:layout_constraintTop_toBottomOf="@+id/btndefeatGermany"
+            app:srcCompat="@drawable/coldwar" />
     </android.support.constraint.ConstraintLayout>
 </ScrollView>
 
