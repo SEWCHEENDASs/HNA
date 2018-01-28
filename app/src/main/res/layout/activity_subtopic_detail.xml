@@ -4,12 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
     tools:context="com.johnnysayshiandroid.historynotesapplication.SubtopicDetailActivity">
 
     <ListView
+        android:id="@+id/lvListDetail"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/lvListDetail"></ListView>
+        android:background="@color/colorPrimary"></ListView>
 
 
 </LinearLayout>
