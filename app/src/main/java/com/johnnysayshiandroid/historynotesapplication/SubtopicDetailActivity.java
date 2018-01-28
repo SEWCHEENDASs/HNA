@@ -63,7 +63,7 @@ public class SubtopicDetailActivity extends AppCompatActivity {
                 return view;
             }
         };
-        
+
         lvListDetail.setAdapter(aa);
 
         lvListDetail.setOnItemClickListener(new AdapterView.OnItemClickListener() {

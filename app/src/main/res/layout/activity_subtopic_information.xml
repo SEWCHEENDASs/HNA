@@ -38,6 +38,7 @@
             android:textStyle="bold"
             android:text="Large Text"
             android:id="@+id/tvTitle"
+            android:textColor="#FFFFFF"
             android:background="@drawable/circle1"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
@@ -59,6 +60,7 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="Medium Text"
+            android:textColor="#FFFFFF"
             android:textColorLink="@android:color/holo_blue_light"
             android:id="@+id/tvInformation" />
     </ScrollView>
