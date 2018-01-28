@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://C:\Users\admin\Documents\HistoryNotesApplication\HNA.iml" filepath="C:\Users\admin\Documents\HistoryNotesApplication\HNA.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HistoryNotesApplication.iml" filepath="$PROJECT_DIR$/HistoryNotesApplication.iml" />
-      <module fileurl="file://D:\Android\HNA\HistoryNotesApplication.iml" filepath="D:\Android\HNA\HistoryNotesApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HNA.iml" filepath="$PROJECT_DIR$/HNA.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
